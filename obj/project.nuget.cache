@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "dgSpecHash": "GRzy/YqVpGFk3OuRBS017ORUMchHNcGS7Ry8iCn5XNQwKk6TWk8YJMBaJYkEswMLyHOeNYPMCdBlKgaej2u9lg==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\IdentityDeviceManagement\\SOFTHSM\\SOFTHSM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Manish.Choudhary\\.nuget\\packages\\itextsharp\\5.5.11\\itextsharp.5.5.11.nupkg.sha512",
+    "C:\\Users\\Manish.Choudhary\\.nuget\\packages\\pkcs11interop\\5.1.2\\pkcs11interop.5.1.2.nupkg.sha512",
+    "C:\\Users\\Manish.Choudhary\\.nuget\\packages\\pkcs11interop.pdf\\1.3.0\\pkcs11interop.pdf.1.3.0.nupkg.sha512",
+    "C:\\Users\\Manish.Choudhary\\.nuget\\packages\\portable.bouncycastle\\1.8.10\\portable.bouncycastle.1.8.10.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Pkcs11Interop.PDF 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Pkcs11Interop.PDF",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

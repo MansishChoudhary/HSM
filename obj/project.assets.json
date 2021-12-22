@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "iTextSharp/5.5.11": {
+        "type": "package",
+        "compile": {
+          "lib/itextsharp.dll": {}
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {}
+        }
+      },
+      "Pkcs11Interop/5.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Pkcs11Interop.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pkcs11Interop.dll": {}
+        }
+      },
+      "Pkcs11Interop.PDF/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Pkcs11Interop": "3.3.0",
+          "iTextSharp": "5.5.11"
+        },
+        "compile": {
+          "lib/net45/Pkcs11Interop.PDF.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Pkcs11Interop.PDF.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.8.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iTextSharp/5.5.11": {
+      "sha512": "zL+YDlwSmD/kcU1uoWHE7Ph2hEsnVaV2ICnB5nYXm86v6+KKxjO5zOEh2jCotz0IlqaTLlv5XCInU5Czc2mzDw==",
+      "type": "package",
+      "path": "itextsharp/5.5.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AGPL.txt",
+        "itextsharp.5.5.11.nupkg.sha512",
+        "itextsharp.nuspec",
+        "lib/iTextSharp.xml",
+        "lib/itextsharp.dll",
+        "notice.txt"
+      ]
+    },
+    "Pkcs11Interop/5.1.2": {
+      "sha512": "5GHN9GHxfcyUejK761wkdJsRqvDO8Z3ET6gaSE0o0O/1HD3VttKojDgsGnqQ0AA0M7SyZjhFs0XJtG/ZKWAvRQ==",
+      "type": "package",
+      "path": "pkcs11interop/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "Pkcs11Interop.png",
+        "lib/net20/Pkcs11Interop.dll",
+        "lib/net20/Pkcs11Interop.xml",
+        "lib/net40/Pkcs11Interop.dll",
+        "lib/net40/Pkcs11Interop.xml",
+        "lib/net45/Pkcs11Interop.dll",
+        "lib/net45/Pkcs11Interop.xml",
+        "lib/netstandard2.0/Pkcs11Interop.dll",
+        "lib/netstandard2.0/Pkcs11Interop.xml",
+        "pkcs11interop.5.1.2.nupkg.sha512",
+        "pkcs11interop.nuspec"
+      ]
+    },
+    "Pkcs11Interop.PDF/1.3.0": {
+      "sha512": "216WLC59npdJUeQ3MRN1YboAC0rBZC9GMpx8/3AoP2080IJaOSIeaiHOwkrP3MGlLyGmYenKZ238S2tJrwabjA==",
+      "type": "package",
+      "path": "pkcs11interop.pdf/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/Pkcs11Interop.PDF.dll",
+        "lib/net20/Pkcs11Interop.PDF.xml",
+        "lib/net40/Pkcs11Interop.PDF.dll",
+        "lib/net40/Pkcs11Interop.PDF.xml",
+        "lib/net45/Pkcs11Interop.PDF.dll",
+        "lib/net45/Pkcs11Interop.PDF.xml",
+        "pkcs11interop.pdf.1.3.0.nupkg.sha512",
+        "pkcs11interop.pdf.nuspec"
+      ]
+    },
+    "Portable.BouncyCastle/1.8.10": {
+      "sha512": "XLhjNAwuVB9ynwn11l5K44eyozh8q6gFseTrlnLNttejimglX7+F9+vxh60LPjvA/DAt6fUdS43N3ah8K6eaWg==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.8.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.8.10.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Pkcs11Interop >= 5.1.2",
+      "Pkcs11Interop.PDF >= 1.3.0",
+      "Portable.BouncyCastle >= 1.8.10"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Manish.Choudhary\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Github\\IdentityDeviceManagement\\SOFTHSM\\SOFTHSM.csproj",
+      "projectName": "SOFTHSM",
+      "projectPath": "D:\\Github\\IdentityDeviceManagement\\SOFTHSM\\SOFTHSM.csproj",
+      "packagesPath": "C:\\Users\\Manish.Choudhary\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\IdentityDeviceManagement\\SOFTHSM\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Manish.Choudhary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Pkcs11Interop": {
+            "target": "Package",
+            "version": "[5.1.2, )"
+          },
+          "Pkcs11Interop.PDF": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "Portable.BouncyCastle": {
+            "target": "Package",
+            "version": "[1.8.10, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.11' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Pkcs11Interop.PDF 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Pkcs11Interop.PDF",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
